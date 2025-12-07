@@ -8,6 +8,8 @@ This contains everything you need to run your app locally.
 
 View your app in AI Studio: https://ai.studio/apps/drive/1Vt4rQUjs50zdaV0J0BgRRU4mquU3vGWy
 
+Try my application: https://vitalguard-response-prototype-1055459521986.us-west1.run.app/
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
