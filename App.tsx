@@ -32,6 +32,7 @@ const App: React.FC = () => {
   const [isManualLocInputOpen, setIsManualLocInputOpen] = useState(false);
 
   const [emergencyContact, setEmergencyContact] = useState<EmergencyContact>(() => {
+      if (typeof window === 'undefined') return DEFAULT_CONTACT;
       const saved = localStorage.getItem('emergencyContact');
       return saved ? JSON.parse(saved) : DEFAULT_CONTACT;
   });
