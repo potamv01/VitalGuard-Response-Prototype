@@ -1,0 +1,7 @@
+{
+  "name": "VitalGuard Response Prototype",
+  "description": "A high-risk health monitoring concept that simulates vital sign tracking and uses Gemini with Google Maps Grounding to locate the nearest emergency services during critical health events.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
